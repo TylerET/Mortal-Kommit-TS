@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mortal-kommit-typescript/static/css/main.36145bd9.css",
+    "main.js": "/mortal-kommit-typescript/static/js/main.0b2d6f2b.js",
+    "static/js/787.283850c6.chunk.js": "/mortal-kommit-typescript/static/js/787.283850c6.chunk.js",
+    "index.html": "/mortal-kommit-typescript/index.html",
+    "main.36145bd9.css.map": "/mortal-kommit-typescript/static/css/main.36145bd9.css.map",
+    "main.0b2d6f2b.js.map": "/mortal-kommit-typescript/static/js/main.0b2d6f2b.js.map",
+    "787.283850c6.chunk.js.map": "/mortal-kommit-typescript/static/js/787.283850c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36145bd9.css",
+    "static/js/main.0b2d6f2b.js"
+  ]
+}
