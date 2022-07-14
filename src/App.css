@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+
+.featured-github-profile{
+  width: 60px;
+  height: 75px;
+}
+
+.github-profile {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(80, 80, 82);
+  box-shadow: inset 0 0 10px rgb(42, 45, 42);
+  margin: 5px;
+  
+}
+
+h1, h2, p, button, input{
+  font-family: 'Press Start 2P', cursive;
+}
+
+button, input {
+  font-size: .4rem;
+  height: 1.4rem;
+}
+
+h2 {
+  color: yellow;
+  text-shadow: 5px 5px #131111;
+}
+
+h1 {
+  background: rgb(195,82,34);
+  background: linear-gradient(0deg, rgba(195,82,34,1) 0%, rgba(253,251,45,1) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-weight: 900;
+  color: greenyellow;
+  text-shadow: 2px 2px #131111;
+}
+
+.container {
+  text-align: center;
+  background-image: url('/public/img/MK-background.png');
+  background-repeat: repeat;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-wrapper-1 {
+  display: grid;
+  grid-template: 75px / 60px 60px 60px 60px 60px;
+  gap: 5px;
+  margin-bottom: 5px;
+  /* border: 1px solid green; */
+}
+
+.row-wrapper-2 {
+  display: grid;
+  grid-template: 75px / 60px 60px 60px;
+  grid-auto-flow: column;
+  grid-auto-columns: 60px;
+  grid-auto-rows: 75px;
+  gap: 5px;
+  /* border: 2px solid green; */
+}
+
+.player-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* .github-profile:nth-child(n+6):nth-child(-n+10){
+  margin: auto;
+ } */
+
