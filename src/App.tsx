@@ -5,20 +5,20 @@ import axios from "axios";
 const testData: Array<ProfileType> = [
   {
     name: "Johnny Cage",
-    avatar_url: "/img/Johnny-Cage.png",
+    avatar_url: "./img/Johnny-Cage.png",
     commits: getCommits(),
   },
-  { name: "Kano", avatar_url: "/img/Kano.png", commits: getCommits() },
-  { name: "Random", avatar_url: "/img/logo.png", commits: getCommits() },
-  { name: "SubZero", avatar_url: "/img/SubZero.png", commits: getCommits() },
+  { name: "Kano", avatar_url: "./img/Kano.png", commits: getCommits() },
+  { name: "Random", avatar_url: "./img/logo.png", commits: getCommits() },
+  { name: "SubZero", avatar_url: "./img/SubZero.png", commits: getCommits() },
   {
     name: "Sonya Blade",
-    avatar_url: "/img/Sonya-Blade.png",
+    avatar_url: "./img/Sonya-Blade.png",
     commits: getCommits(),
   },
-  { name: "Raiden", avatar_url: "/img/Raiden.png", commits: getCommits() },
-  { name: "Liu Kang", avatar_url: "/img/Liu-Kang.png", commits: getCommits() },
-  { name: "Scorpion", avatar_url: "/img/Scorpion.png", commits: getCommits() },
+  { name: "Raiden", avatar_url: "./img/Raiden.png", commits: getCommits() },
+  { name: "Liu Kang", avatar_url: "./img/Liu-Kang.png", commits: getCommits() },
+  { name: "Scorpion", avatar_url: "./img/Scorpion.png", commits: getCommits() },
 ];
 
 export interface ProfileType {
